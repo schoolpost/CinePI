@@ -7,7 +7,7 @@ Software to enable Cinema Camera capabilities for Raspberry Pi
 ![Banner](docs/banner.jpg)
 
 &nbsp;
-# Softare Overview
+# Software Overview
 
 Description of the software side of the camera which involve multiple layers of logic/configuration at the application ( userspace ) and kernel level. 
 
