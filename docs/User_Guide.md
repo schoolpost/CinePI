@@ -1,4 +1,4 @@
-# User Manual
+# User Guide
 
 **Early Disclaimer: CinePI-2K's [current release](https://github.com/schoolpost/CinePI/releases) is far from being considered stable, so use it at your own risk. Do not expect it to work flawlessly. Expect lots of bugs and dropped frames! This is just the nature of things, but hopefully through a collaborative effort, we'll get to a stable working version soon!**
 
