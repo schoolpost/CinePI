@@ -8,8 +8,7 @@ You find the current CinePI-2K release [here](https://github.com/schoolpost/Cine
 
 It is difficult to package CinePI as an installable "app" for existing Raspberry Pi operating system installations due to its particular dependencies on specific operating system/Linux kernel-level configurations. Releases and packaging will be assessed and revisited in the future. 
 
-## Installation:
-### Requirements:
+### Installation Requirements:
  - Raspberry Pi 4 Model B with 4GB or more. Models with less RAM are untested. Currently, more RAM allows longer video takes, so the 8GB model is preferable.
  - Preferably an additional heat sink with cooling fans for the Raspberry Pi. These are being offered by various third-party manufacturers. It must leave access to the GPIO and camera ports.
  - Raspberry Pi High Quality Camera module
@@ -79,7 +78,7 @@ For a visual installation guide, you can watch [this video](https://vimeo.com/51
 
 (The aim is optimize boot time in the future to under 10 seconds.)
 
-#### Troubleshooting
+### Troubleshooting
 
 - If the camera image stays black even after waiting for a longer time, while you see the CinePI-2K's control display (showing ISO, shutter angle, system temperature etc.), make sure that the lens cap of your lens is off. 
 
@@ -92,7 +91,7 @@ For a visual installation guide, you can watch [this video](https://vimeo.com/51
 
 ***
 
-### Usage
+## Usage
 
 In addition to the live view you will see a number of other settings/parameters that are updated live according to state of the camera. 
 
@@ -113,9 +112,9 @@ With the smartphone app (see section _Installation_), you can currently control 
 
 *** 
 
-### Lens guide
+## Lens guide
 
-## CS mount vs. c-mount
+### CS mount vs. c-mount
 
 The Raspberry High Quality Camera module supports two types of lenses: 
 
@@ -128,7 +127,7 @@ The Raspberry Pi Foundation sells inexpensive 6mm and 16mm CS mount lenses for t
 
 Modern, high-resolution lenses are also more likely to provoke aliasing and moiré artefacts on the CinePi's recorded footage while lower-resolution vintage soften the image and thus prevent moiré.
 
-## Sensor coverage and focal lengths
+### Sensor coverage and focal lengths
 
 The Raspberry Pi High Quality Camera module uses a 1/2.3" sensor with a size of 7.564 * 5.476 mm. This means that CCTV lenses made for 1/2" sensors will cover the camera image without vignetting (i.e. without black corners). 
 
@@ -144,13 +143,13 @@ Here's an overview of focal lengths for the CinePi, in comparison to common foca
 | 35mm full frame photo camera (for comparison) | 24 mm	| 28 mm               | 35 mm             | 50 mm    | 85 mm         | 100 mm        | 180 mm
 
 
-## Adapting other lens mounts
+### Adapting other lens mounts
 
 D-mount lenses for Regular 8mm cameras (i.e. the older, 8mm reel-to-reel format with an image size of 4.5 * 3.3 mm that preceded Super 8) can be used on the CinePi with the help of a d-mount to c-mount adapter ring (manufactured by [Fotodiox](https://fotodioxpro.com/products/d-c-p)). Since d-mount has almost the same flange focal distance as CS mount (12.29 mm vs. 12.526 mm), such an adapted lens can be directly screwed onto the camera.
 
 In the past, a number of lens mount adapters for common 35mm photo camera bayonets (Leica, Nikon F, M42, Minolta etc.) to c-mount were produced. These adapters can be used for mounting older manual photo camera lenses to the CinePi. However, the typical focal lengths of these lenses will make turn them into extreme tele focal lengths on the camera.
 
-## Flange focal distance / back focus calibration
+### Flange focal distance / back focus calibration
 
 The thin, black, jagged metal rotating ring behind the lens mount is for fine-tuning the flange focal distance (respectively back focus) of any lens screwed onto the High Quality Camera module. This is a very useful feature of the camera module and particularly important for using 8 and 16mm parfocal film camera zoom lenses with the CinePi. Parfocality means that a zoom lens stays in focus when being zoomed in and out. (Most photo camera and cheaper CCTV zoom lenses aren't parfocal and lose focus while zooming.) 
 
@@ -160,7 +159,7 @@ To set correct back focus for a parfocal zoom lens, the lens should first be cal
 
 *** 
 
-### Rigging
+## Rigging
 
 [Information on housings for the CinePI-2k will be added.]
 
@@ -168,13 +167,13 @@ If you use a heavy lens, such as a vintage c-mount zoom lens, support its weight
 
 *** 
 
-### Quirks
+## Quirks
 
  - Bugs, bugs, bugs....(likely to be lots of other issues I've completely missed, please be ready to document/track these for them to be addressed.) 
 
 ***
 
-### Developers
+## Developers
 
 The source can be accessed straight from the Pi via SSH using the credentials:
 -user: pi
