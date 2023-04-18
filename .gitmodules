@@ -1,0 +1,9 @@
+[submodule "software/cinepi-raw"]
+	path = software/cinepi-raw
+	url = https://github.com/cinepi/cinepi-raw.git
+[submodule "software/udev-media-automount"]
+	path = software/udev-media-automount
+	url = https://github.com/cinepi/udev-media-automount.git
+[submodule "software/libcamera"]
+	path = software/libcamera
+	url = https://github.com/cinepi/libcamera.git
