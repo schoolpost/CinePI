@@ -16,6 +16,8 @@ The purpose of this repository and it's accomanying resocures is primarly to act
 
 # Features
 
+- Super8 Sized Sensor ( Sony IMX477 )
+- 12-bit CinemaDNG Recording
 - 4.0" High Res Touch Screen Interface
 - Internal High Capacity Battery 
 - Real time clock 
