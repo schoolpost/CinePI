@@ -27,7 +27,9 @@ The purpose of this repository and it's accomanying resocures is primarly to act
 
 Refer to the Wiki section for in-depth guide on hardware assembly and software installation. 
 
+# References
 
+CinePI Project Account | [Github Page](https://github.com/cinepi)
 
 
 
